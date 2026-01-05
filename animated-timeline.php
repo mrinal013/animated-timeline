@@ -75,12 +75,11 @@ function animated_timeline_register_scripts() {
 		true
 	);
 
-    // Register the custom style to be used later.
-	wp_register_script(
+	// Register the custom style to be used later.
+	wp_register_style(
 		'animated-timeline-style',
 		plugin_dir_url( __FILE__ ) . '/assets/styles/core-blocks/group--animated-timeline.css',
 		array(),
-		'1.0.0',
-		true
+		'1.0.0'
 	);
 }
